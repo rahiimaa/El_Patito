@@ -3,12 +3,13 @@
 Algoritmo Promedio
 	
 	Escribir "Ingrese la cantidad de datos:"
-	Repetir
+	Repetir 
+Ã­ngrese la cantidad de datos :
 		
 		Leer n
 		Si n<=0 Entonces
-			Escribir "El número debe ser positivo y distinto de cero."
-			Escribir "Introduzca un número válido."
+			Escribir "El nÃºmero debe ser positivo y distinto de cero."
+			Escribir "Introduzca un nÃºmero vÃ¡lido."
 		Fin Si
 		
 	Hasta Que n>0
@@ -17,7 +18,7 @@ Algoritmo Promedio
 	
 	Para i<-1 Hasta n Hacer
 		Escribir "Ingrese el dato ",i,":"
-		Repetir
+		Repetir Ã¯ngrese el dato ,i,:
 			Leer dato
 			Si dato<0 Entonces
 				Escribir "El dato debe ser positivo."
@@ -30,7 +31,7 @@ Algoritmo Promedio
 	
 	prom<-acum/n
 	
-	Escribir "El promedio es: ",prom
+	Escribir "El promedio es: ",promedio 
 	
 FinAlgoritmo
 
